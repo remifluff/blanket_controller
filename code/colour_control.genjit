@@ -69,8 +69,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 354.0, 63.0, 195.0, 22.0 ],
-					"text" : "param modulo 1 @min 1 @max 20"
+					"patching_rect" : [ 354.0, 63.0, 95.0, 22.0 ],
+					"text" : "param modulo 1"
 				}
 
 			}
@@ -157,8 +157,7 @@
 				}
 
 			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
