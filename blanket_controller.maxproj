@@ -2,7 +2,7 @@
 	"name" : "blanket_controller",
 	"version" : 1,
 	"creationdate" : 3785720390,
-	"modificationdate" : 3791494661,
+	"modificationdate" : 3791495887,
 	"viewrect" : [ 136.0, 154.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -28,10 +28,30 @@
 		}
 ,
 		"code" : 		{
-
-		}
+			"autopatch.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
 ,
-		"other" : 		{
+			"colour_control.genjit" : 			{
+				"kind" : "genjit",
+				"local" : 1
+			}
+,
+			"feedback.genjit" : 			{
+				"kind" : "genjit",
+				"local" : 1
+			}
+,
+			"feedback_hold_frame.genjit" : 			{
+				"kind" : "genjit",
+				"local" : 1
+			}
+,
+			"interfacecolor.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
 
 		}
 
