@@ -2459,14 +2459,14 @@
 			}
 , 			{
 				"name" : "autopatch.js",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/Projects/Interstitial Dreaming/Blind Side Install/Blanket Controller/code",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/Projects/Interstitial Dreaming/Blind Side Install/blanket_controller/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "colour_control.genjit",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/Projects/Interstitial Dreaming/Blind Side Install/Blanket Controller/code",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/Projects/Interstitial Dreaming/Blind Side Install/blanket_controller/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gJIT",
 				"implicit" : 1
@@ -2493,7 +2493,7 @@
 			}
 , 			{
 				"name" : "feedback.genjit",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/Projects/Interstitial Dreaming/Blind Side Install/Blanket Controller/code",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/Projects/Interstitial Dreaming/Blind Side Install/blanket_controller/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gJIT",
 				"implicit" : 1
@@ -2516,21 +2516,21 @@
 			}
 , 			{
 				"name" : "matrix_to_serial.maxpat",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/Projects/Interstitial Dreaming/Blind Side Install/Blanket Controller/patchers",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/Projects/Interstitial Dreaming/Blind Side Install/blanket_controller/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "serial_data_to_matrix.maxpat",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/Projects/Interstitial Dreaming/Blind Side Install/Blanket Controller/patchers",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/Projects/Interstitial Dreaming/Blind Side Install/blanket_controller/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "serial_refresh.maxpat",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/Projects/Interstitial Dreaming/Blind Side Install/Blanket Controller/patchers",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/Projects/Interstitial Dreaming/Blind Side Install/blanket_controller/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

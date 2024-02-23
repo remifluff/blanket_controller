@@ -1,8 +1,8 @@
 {
-	"name" : "Blanket Controller",
+	"name" : "blanket_controller",
 	"version" : 1,
 	"creationdate" : 3785720390,
-	"modificationdate" : 3791423701,
+	"modificationdate" : 3791494661,
 	"viewrect" : [ 136.0, 154.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -20,7 +20,7 @@
 				"local" : 1
 			}
 ,
-			"Blanket Controller.maxpat" : 			{
+			"blanket_controller.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -31,7 +31,7 @@
 
 		}
 ,
-		"externals" : 		{
+		"other" : 		{
 
 		}
 
