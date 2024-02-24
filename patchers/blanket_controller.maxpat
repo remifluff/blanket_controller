@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1852.0, 873.0 ],
+		"rect" : [ 1954.0, 195.0, 1372.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,144 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-80",
+					"maxclass" : "jit.fpsgui",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 364.48914235830307, 268.132192833738941, 76.0, 36.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 49.299993515014648, 497.193600516156948, 76.0, 36.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-79",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 160.000002384185791, 92.800001382827759, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 21.44529198129112, 462.400006890296936, 150.0, 20.0 ],
+					"text" : "millis between cam frames"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-75",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 582.433345898985863, 272.800004065036774, 97.800006002187729, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 77.560130755177738, 434.366629776622688, 97.800006002187729, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-73",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 555.666682213544846, 154.267210578341917, 77.0, 22.0 ],
+					"text" : "loadmess 40"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-72",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 446.666681468486786, 138.267210101504759, 77.0, 22.0 ],
+					"text" : "loadmess 20"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-71",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 555.666682213544846, 184.653520359338415, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 125.360136757365467, 387.421154982619214, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-68",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 460.322475691636441, 164.600010097026825, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 125.360136757365467, 358.199999034404755, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-66",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 589.666683226823807, 116.267210101504759, 83.333331346511841, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 37.704340328843955, 388.421154982619271, 83.333331346511841, 20.0 ],
+					"text" : "white_temp"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-65",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 446.666681468486786, 108.666670560836792, 83.333331346511841, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 37.704340328843955, 359.199999034404698, 83.333331346511841, 20.0 ],
+					"text" : "black_temp"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-24",
+					"maxclass" : "jit.fpsgui",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 484.5, 1039.266662177707531, 76.0, 36.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 242.499990224838257, 77.766624567176734, 76.0, 36.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-62",
 					"maxclass" : "newobj",
@@ -74,8 +212,6 @@
 						"attrui[14]" : [ "decay_speed", 60.0 ],
 						"attrui[15]" : [ "audio_reactive", 1.0 ],
 						"attrui[16]" : [ "audio_reactive", 1.0 ],
-						"attrui[17]" : [ "white_temp", 40.0 ],
-						"attrui[18]" : [ "black_temp", 20.0 ],
 						"attrui[1]" : [ "contrast", 1.0 ],
 						"attrui[2]" : [ "saturation", 1.0 ],
 						"attrui[3]" : [ "modulo", 5.06556510925293 ],
@@ -89,7 +225,7 @@
 						"textbutton[1]" : [ -1 ],
 						"textbutton[2]" : [ -1 ],
 						"toggle[1]" : [ 1 ],
-						"toggle[2]" : [ 1 ]
+						"toggle[2]" : [ 0 ]
 					}
 ,
 					"text" : "autopattr @autoname 1",
@@ -143,10 +279,10 @@
 					"id" : "obj-39",
 					"maxclass" : "newobj",
 					"numinlets" : 4,
-					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 316.98914235830307, 238.33667258739473, 227.0, 22.0 ],
-					"text" : "thermal_cam usbmodem73140301 20 40"
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "float" ],
+					"patching_rect" : [ 316.98914235830307, 238.33667258739473, 234.0, 22.0 ],
+					"text" : "thermal_cam usbmodem142492101 20 40"
 				}
 
 			}
@@ -244,54 +380,6 @@
 					"text" : "Load Gradient PNG",
 					"texton" : "Load Gradient PNG",
 					"varname" : "textbutton"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"attr" : "black_temp",
-					"displaymode" : 1,
-					"id" : "obj-259",
-					"lock" : 1,
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 420.98914235830307, 139.800005495548248, 150.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 10.034467059523195, 358.199999034404755, 181.003206701995168, 22.0 ],
-					"varname" : "attrui[18]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"attr" : "white_temp",
-					"displaymode" : 1,
-					"id" : "obj-258",
-					"lock" : 1,
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 483.122439113300061, 168.933355271816254, 150.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 10.034467059523195, 387.421154982619214, 181.003206701995168, 22.0 ],
-					"varname" : "attrui[17]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-255",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 420.98914235830307, 203.333341062068939, 172.0, 22.0 ],
-					"text" : "gen @gen temp_controls"
 				}
 
 			}
@@ -846,9 +934,10 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "draw.webcam.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
+					"numinlets" : 2,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 3619.329877614974976, 428.418888154361753, 284.410934528570579, 123.133332282304764 ],
 					"viewvisibility" : 1
 				}
@@ -866,9 +955,10 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "draw.metro.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
+					"numinlets" : 3,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 3584.0, 331.7377983060818, 237.926914557647251, 76.439062622813253 ],
 					"viewvisibility" : 1
 				}
@@ -1177,7 +1267,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 513.366675198078156, 306.132192833738941, 60.0, 22.0 ],
+					"patching_rect" : [ 513.366675198078156, 330.932193203287738, 60.0, 22.0 ],
 					"text" : "s video_1"
 				}
 
@@ -1334,7 +1424,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 316.98914235830307, 306.132192833738941, 179.0, 22.0 ],
+					"patching_rect" : [ 316.98914235830307, 330.932193203287738, 179.0, 22.0 ],
 					"text" : "jit.matrix 4 char 32 32 @adapt 0"
 				}
 
@@ -1561,7 +1651,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-124", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-177", 0 ]
 				}
 
@@ -1569,6 +1659,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-183", 0 ],
+					"order" : 1,
+					"source" : [ "obj-177", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
 					"order" : 0,
 					"source" : [ "obj-177", 0 ]
 				}
@@ -1772,27 +1870,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-39", 2 ],
-					"source" : [ "obj-255", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-255", 0 ],
-					"source" : [ "obj-258", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-255", 0 ],
-					"source" : [ "obj-259", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"source" : [ "obj-29", 0 ]
 				}
@@ -1885,6 +1962,22 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
+					"order" : 1,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-75", 0 ],
+					"source" : [ "obj-39", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-80", 0 ],
+					"order" : 0,
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -1954,8 +2047,36 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-39", 2 ],
+					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 3 ],
+					"source" : [ "obj-71", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-68", 0 ],
+					"source" : [ "obj-72", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-71", 0 ],
+					"source" : [ "obj-73", 0 ]
 				}
 
 			}
@@ -1995,16 +2116,37 @@
 			}
 , 			{
 				"name" : "audio_scaler.gendsp",
-				"bootpath" : "~/Desktop/blanket_controller/code",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/Projects/Interstitial Dreaming/Blind Side Install/blanket_controller/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "autopatch.js",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/Projects/Interstitial Dreaming/Blind Side Install/blanket_controller/code",
+				"patcherrelativepath" : "../code",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "colour_control.genjit",
-				"bootpath" : "~/Desktop/blanket_controller/code",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/Projects/Interstitial Dreaming/Blind Side Install/blanket_controller/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gJIT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "draw.metro.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
+				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/draw/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "draw.webcam.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
+				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/draw/patchers",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -2015,28 +2157,28 @@
 			}
 , 			{
 				"name" : "matrix_to_serial.maxpat",
-				"bootpath" : "~/Desktop/blanket_controller/patchers",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/Projects/Interstitial Dreaming/Blind Side Install/blanket_controller/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "serial_refresh.maxpat",
-				"bootpath" : "~/Desktop/blanket_controller/patchers",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/Projects/Interstitial Dreaming/Blind Side Install/blanket_controller/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "temp_controls.gendsp",
-				"bootpath" : "~/Desktop/blanket_controller/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
+				"name" : "thermal_cam.maxpat",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/Projects/Interstitial Dreaming/Blind Side Install/blanket_controller/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "thermal_cam.maxpat",
-				"bootpath" : "~/Desktop/blanket_controller/patchers",
+				"name" : "ut.autopatch.maxpat",
+				"bootpath" : "~/Library/CloudStorage/Dropbox/Projects/Interstitial Dreaming/Blind Side Install/blanket_controller/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
