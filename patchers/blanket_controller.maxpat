@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1954.0, 195.0, 1372.0, 779.0 ],
+		"rect" : [ 48.0, 87.0, 1838.0, 887.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -78,7 +78,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 582.433345898985863, 272.800004065036774, 97.800006002187729, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 77.560130755177738, 434.366629776622688, 97.800006002187729, 22.0 ]
+					"presentation_rect" : [ 77.560130755177738, 434.366629776622688, 97.800006002187729, 22.0 ],
+					"varname" : "number[2]"
 				}
 
 			}
@@ -116,7 +117,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 555.666682213544846, 184.653520359338415, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 125.360136757365467, 387.421154982619214, 50.0, 22.0 ]
+					"presentation_rect" : [ 125.360136757365467, 387.421154982619214, 50.0, 22.0 ],
+					"varname" : "number[1]"
 				}
 
 			}
@@ -130,7 +132,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 460.322475691636441, 164.600010097026825, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 125.360136757365467, 358.199999034404755, 50.0, 22.0 ]
+					"presentation_rect" : [ 125.360136757365467, 358.199999034404755, 50.0, 22.0 ],
+					"varname" : "number"
 				}
 
 			}
@@ -214,18 +217,21 @@
 						"attrui[16]" : [ "audio_reactive", 1.0 ],
 						"attrui[1]" : [ "contrast", 1.0 ],
 						"attrui[2]" : [ "saturation", 1.0 ],
-						"attrui[3]" : [ "modulo", 5.06556510925293 ],
-						"attrui[4]" : [ "min_val", 4.950000000000001 ],
-						"attrui[5]" : [ "slide_up", 1.0 ],
-						"attrui[6]" : [ "slide_down", 125.0 ],
-						"attrui[7]" : [ "hue_angle", 5.711591539446903 ],
-						"attrui[8]" : [ "max_val", 10.0 ],
+						"attrui[3]" : [ "modulo", 6.062919139862061 ],
+						"attrui[4]" : [ "min_val", 6.0 ],
+						"attrui[5]" : [ "slide_up", 29.0 ],
+						"attrui[6]" : [ "slide_down", 15.0 ],
+						"attrui[7]" : [ "hue_angle", 0.567750752657913 ],
+						"attrui[8]" : [ "max_val", 9.700000000000001 ],
 						"attrui[9]" : [ "attack_speed", 33.0 ],
+						"number" : [ 22 ],
+						"number[1]" : [ 32 ],
+						"number[2]" : [ 495.29024999961257 ],
 						"textbutton" : [ -1 ],
 						"textbutton[1]" : [ -1 ],
 						"textbutton[2]" : [ -1 ],
 						"toggle[1]" : [ 1 ],
-						"toggle[2]" : [ 0 ]
+						"toggle[2]" : [ 1 ]
 					}
 ,
 					"text" : "autopattr @autoname 1",
@@ -934,10 +940,9 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "draw.webcam.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 1,
+					"numinlets" : 0,
+					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 3619.329877614974976, 428.418888154361753, 284.410934528570579, 123.133332282304764 ],
 					"viewvisibility" : 1
 				}
@@ -955,10 +960,9 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "draw.metro.maxpat",
-					"numinlets" : 3,
-					"numoutlets" : 1,
+					"numinlets" : 0,
+					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 3584.0, 331.7377983060818, 237.926914557647251, 76.439062622813253 ],
 					"viewvisibility" : 1
 				}
@@ -2116,37 +2120,16 @@
 			}
 , 			{
 				"name" : "audio_scaler.gendsp",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/Projects/Interstitial Dreaming/Blind Side Install/blanket_controller/code",
+				"bootpath" : "~/Desktop/blanket_controller/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "autopatch.js",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/Projects/Interstitial Dreaming/Blind Side Install/blanket_controller/code",
-				"patcherrelativepath" : "../code",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "colour_control.genjit",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/Projects/Interstitial Dreaming/Blind Side Install/blanket_controller/code",
+				"bootpath" : "~/Desktop/blanket_controller/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gJIT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "draw.metro.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
-				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/draw/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "draw.webcam.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/draw/patchers",
-				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/draw/patchers",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -2157,28 +2140,21 @@
 			}
 , 			{
 				"name" : "matrix_to_serial.maxpat",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/Projects/Interstitial Dreaming/Blind Side Install/blanket_controller/patchers",
+				"bootpath" : "~/Desktop/blanket_controller/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "serial_refresh.maxpat",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/Projects/Interstitial Dreaming/Blind Side Install/blanket_controller/patchers",
+				"bootpath" : "~/Desktop/blanket_controller/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thermal_cam.maxpat",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/Projects/Interstitial Dreaming/Blind Side Install/blanket_controller/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ut.autopatch.maxpat",
-				"bootpath" : "~/Library/CloudStorage/Dropbox/Projects/Interstitial Dreaming/Blind Side Install/blanket_controller/patchers",
+				"bootpath" : "~/Desktop/blanket_controller/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
